@@ -53,18 +53,33 @@ public class Listas {
                 
             }
         }
+
+          // mostrar recuperados
+    public void mostrarRecuperado(){
+        int recupe = listaRecuperacao.size();
+        if(recupe == 0){
+            System.out.println(" Nenhum Aluno esta de recuperacao");
+        }else{
+            System.out.println("Contem"+ recupe+" Alunos em Recuperacao");
+            for(Aluno a :listaRecuperacao){
+                System.out.println(a);
+            }
+        }
+    }
+
     // mostrar reprovados
     public void mostrarReprovados(){
         int reprov = listaReprovados.size();
         if(reprov == 0){
             System.out.println("Nao existe alunos Reprovados");
         }else{
+            System.out.println("Contem "+ reprov+" alunos reprovados");
             for(Aluno a : listaReprovados){
                 System.out.println(a);
             }
-            
         }
     }
+    
     public void clasAprov(float media, Aluno aluno){
         if(media < 5){
             reprovados(aluno);
@@ -80,7 +95,7 @@ public class Listas {
         listaAprovados.add(aluno);
         }
     }
-    
 }
+
 
 

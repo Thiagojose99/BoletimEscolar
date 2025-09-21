@@ -13,7 +13,7 @@ public class Principal {
             System.out.println("4 - Sair");
             System.out.print("Escolha uma opção: ");
             opcao = sc.nextInt();
-            sc.nextLine();
+            
 
             switch (opcao) {
                 case 1:
@@ -40,7 +40,25 @@ public class Principal {
                     break;
 
                 case 2:
-                    listas.mostrarTodos();
+                   while(true){
+                    System.out.println("\n===== Submenu =====");
+                    System.out.println("1 - Mostrar Todos os Alunos");
+                    System.out.println("2 - Mostrar Alunos em Recuperação");
+                    System.out.println("3 - Mostrar Alunos Reprovados");
+                    System.out.println("4 - Voltar ao Menu Principal");
+                    System.out.print("Escolha uma opção: ");
+                    int subOpcao = sc.nextInt();
+                    sc.nextLine();
+                    if(subOpcao == 1){
+                        listas.mostrarTodos();
+                    }else if(subOpcao == 2){
+                        listas.mostrarRecuperado();
+                    }else if(subOpcao == 3){
+                        listas.mostrarReprovados();
+                    }else if(subOpcao == 4){
+                        break;
+                    }
+                }
                     break;
 
                 case 3:
