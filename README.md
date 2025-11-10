@@ -1,10 +1,10 @@
 # BoletimEscolar
 Exercicios para praticar
-📘 Boletim Escolar
+ Boletim Escolar
 
 Este projeto em Java tem como objetivo simular um boletim escolar, permitindo cadastrar alunos com suas notas e calcular automaticamente a média final e o status (aprovado, recuperação ou reprovado).
 
-🚀 Funcionalidades
+Funcionalidades
 
 Cadastrar aluno com nome e três notas
 
@@ -14,20 +14,12 @@ Exibir as informações do aluno
 
 Mostrar o status do aluno de acordo com a média
 
-📂 Estrutura do Projeto
+ Estrutura do Projeto
 src/
 └── com/mycompany/boletimescolar/
     ├── Aluno.java
     └── Listas.java   (classe auxiliar opcional)
 
-💻 Exemplo de Uso
-public class Main {
-    public static void main(String[] args) {
-        Aluno aluno = new Aluno("Thiago", 7.5f, 8.0f, 9.0f);
-        System.out.println(aluno.toString());
-        aluno.mediaFinal(aluno.media(7.5f, 8.0f, 9.0f), aluno);
-    }
-}
 
 🧾 Saída esperada:
 ===== Dados do Aluno =====
