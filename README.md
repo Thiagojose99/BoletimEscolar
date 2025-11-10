@@ -21,7 +21,7 @@ Mostrar o status do aluno de acordo com a média
 
 Java SE
 
-IDE: NetBeans / IntelliJ / Eclipse
+IDE: NetBeans 
 
 ✍️ Autor
 
