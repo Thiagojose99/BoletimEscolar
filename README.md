@@ -14,23 +14,8 @@ Exibir as informações do aluno
 
 Mostrar o status do aluno de acordo com a média
 
- Estrutura do Projeto
-src/
-└── com/mycompany/boletimescolar/
-    ├── Aluno.java
-    └── Listas.java   (classe auxiliar opcional)
 
 
-🧾 Saída esperada:
-===== Dados do Aluno =====
-Nome: Thiago
-Redes: 7.5
-Bancos de Dados: 8.0
-Java: 9.0
-Nota Final: 8.17
-
-===========================
-Status: Aprovado
 
 🛠️ Tecnologias Utilizadas
 
